@@ -8,7 +8,7 @@
 # A bash script that downloads and installs the latest Debian package for the running architecture.
 # It then adds the script "motd.sh" to /etc/profile.d/.
 #
-# Some of the code is not original and from the following:
+# Some of the code is inspired by the following:
 #     https://pythonguides.com/json-data-in-python/
 #     https://stackoverflow.com/questions/1955505/parsing-json-with-unix-tools
 # among others.
