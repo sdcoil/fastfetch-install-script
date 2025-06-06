@@ -5,7 +5,7 @@ A bash script that downloads and installs the latest Debian package for the runn
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. It is written mainly in C, with a focus on performance and customizability. Currently, it supports Linux, macOS, Windows 7+, Android, FreeBSD, OpenBSD, NetBSD, DragonFly, Haiku, and SunOS. It is not in Debian's repository for 12 and lower. This scripts aims to install the latest version for the current architecture and and a script that runs when a user logs in.
 
 ## Use
-Download get_fastfetch.sh and execute with elevated privalages. If you trust the code (and you should not without first inspecting it) you can run the following from a Debian command prompt:
+Download get_fastfetch.sh and execute with elevated privileges. If you trust the code (and you should not without scrutinization) you can run the following from a Debian command prompt:
 
 ```bash
 curl -s https://raw.githubusercontent.com/sdcoil/fastfetch-install-script/refs/heads/main/get_fastfetch.sh | bash
