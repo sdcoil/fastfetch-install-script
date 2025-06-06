@@ -14,6 +14,7 @@
 # among others.
 set -e
 
+# Get the CPU architecture
 ARCH=$(arch)
 # Location of the latest releases in JSON
 RELEASES="https://api.github.com/repos/fastfetch-cli/fastfetch/releases/latest"
@@ -43,6 +44,7 @@ fi
 echo "Updating package repositories..."
 apt -q update
 echo "Installing required packages..."
+# Minimal Debian packages needed to run
 packages="ca-certificates curl python3 wget"
 DEBIAN_FRONTEND=noninteractive apt -q -y install --no-install-recommends --no-install-suggests $packages
 
