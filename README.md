@@ -8,9 +8,8 @@ A bash script that downloads and installs the latest Debian package for the runn
 Download get_fastfetch.sh and execute with elevated privileges. If you trust the code (and you should not without scrutinization) you can run the following from a Debian command prompt:
 
 ```bash
-curl -s https://raw.githubusercontent.com/sdcoil/fastfetch-install-script/refs/heads/main/get_fastfetch.sh | bash
+bash <(curl -s https://raw.githubusercontent.com/sdcoil/fastfetch-install-script/refs/heads/main/get_fastfetch.sh)
 ```
-
 ## Notes
 Some of the code is inspired by the following:
 - [Python Guides](https://pythonguides.com/json-data-in-python/)
