@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # get_fastfetch.sh
 # Author: Stacy Coil (coil.1@osu.edu)
